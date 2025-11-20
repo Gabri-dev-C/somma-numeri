@@ -3,23 +3,22 @@
 ![Difficulty](https://img.shields.io/badge/Difficulty-Beginner-yellow)
 ![Learning](https://img.shields.io/badge/Learning-C++-orange)
 
-## Recursive sum number
+# Recursive sum number
 
-Implementazione ricorsiva dell'algoritmo di somma sei primi n numeri naturali (da 0 a n).
+Implementazione ricorsiva dell'algoritmo che somma i primi numeri naturali (da 0 a n).
 
-# Componenti della ricorsione
+## Componenti della ricorsione
 1. **Condizioni di terminazione:** `if (n <= 0)`
 2. **Istruzione di terminazione:** `return 0`
 3. **Passo di avvicinamento:** `n-1`
 4. **Chiamata ricorsiva:** `return n + som_num(n-1)`
 
-# Utilizzo
+## Utilizzo
 1. Crea in Code::Blocks un nuovo progetto.
 2. Copia il codice sorgente.
 3. Compila ed esegui.
 
-# Codice sorgente
-
+## Codice sorgente
 ```cpp
 #include <iostream>
 
@@ -44,14 +43,11 @@ int som_num(int n){
 }
 ```
 
-# Output
-
+## Output
 ![Risultato della somma](immagini/cattura_1.PNG)
 
-# Autore
-
+## Autore
 Gabriele Henriet - [GitHub](https://github.com/Gabri-dev-C)
 
-# Licenza
-
+## Licenza
 MIT License
